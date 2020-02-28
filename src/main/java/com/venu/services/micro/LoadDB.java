@@ -12,6 +12,7 @@ public class LoadDB {
 
 	@Bean
 	CommandLineRunner initDB(HeroRepository repository) {
+		System.out.println("Creating Teros");
 		return args -> {
 			repository.save(new Hero("Dr Nice"));
 			repository.save(new Hero("Narco"));
