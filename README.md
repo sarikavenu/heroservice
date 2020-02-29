@@ -10,5 +10,7 @@ The service has following functionalities and uses in-memory **h2** database.
 ## Deployment
 I have deployed and tested this in OpenShift, you can quickly spin a pod and try using an application type of Git and Java.
 
+I have enabled Git WebHook for Continuous Deployment as this is very simple in OpenShift.
+
 ## Routes
 I have not published any route as services are always invoked by Gateway and Eureka.
