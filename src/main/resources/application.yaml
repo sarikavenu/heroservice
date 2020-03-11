@@ -4,6 +4,8 @@ spring:
   application:
     name: heroservice
 eureka:
+  instance:
+    hostname:heroservice
   client:
     service-url:
       defaultZone: http://172.30.48.195:8761/eureka/
