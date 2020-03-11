@@ -8,7 +8,7 @@ eureka:
     hostname:heroservice
   client:
     service-url:
-      defaultZone: http://172.30.48.195:8761/eureka/
+      defaultZone: http://eureka-app1:8761/eureka/
 management:
   endpoints:
     web:
